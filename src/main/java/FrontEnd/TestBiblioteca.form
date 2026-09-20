@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Sistema de Gestión de Biblioteca"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+        <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" alignment="0" attributes="0">
+                <EmptySpace max="-2" attributes="0"/>
+                <Group type="103" groupAlignment="0" attributes="0">
+                    <Component id="lblTitulo" alignment="0" max="32767" attributes="0"/>
+                    <Group type="102" alignment="0" attributes="0">
+                        <Component id="pnlOpciones" min="-2" pref="220" max="-2" attributes="0"/>
+                        <EmptySpace max="-2" attributes="0"/>
+                        <Group type="103" groupAlignment="0" attributes="0">
+                            <Component id="pnlDatos" alignment="0" max="32767" attributes="0"/>
+                            <Component id="pnlResultados" alignment="0" pref="560" max="32767" attributes="0"/>
+                        </Group>
+                    </Group>
+                </Group>
+                <EmptySpace max="-2" attributes="0"/>
+            </Group>
+        </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+        <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" alignment="0" attributes="0">
+                <EmptySpace max="-2" attributes="0"/>
+                <Component id="lblTitulo" min="-2" max="-2" attributes="0"/>
+                <EmptySpace max="-2" attributes="0"/>
+                <Group type="103" groupAlignment="0" attributes="0">
+                    <Component id="pnlOpciones" alignment="0" max="32767" attributes="0"/>
+                    <Group type="102" alignment="0" attributes="0">
+                        <Component id="pnlDatos" min="-2" max="-2" attributes="0"/>
+                        <EmptySpace max="-2" attributes="0"/>
+                        <Component id="pnlResultados" pref="280" max="32767" attributes="0"/>
+                    </Group>
+                </Group>
+                <EmptySpace max="-2" attributes="0"/>
+            </Group>
+        </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Sistema de Gestión de Biblioteca"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="pnlOpciones">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Opciones"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+            <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="0" attributes="0">
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Component id="btnCrear" alignment="0" max="32767" attributes="0"/>
+                        <Component id="btnMostrar" alignment="0" max="32767" attributes="0"/>
+                        <Component id="btnAgregar" alignment="0" max="32767" attributes="0"/>
+                        <Component id="btnModificar" alignment="0" max="32767" attributes="0"/>
+                        <Component id="btnEliminar" alignment="0" max="32767" attributes="0"/>
+                        <Component id="btnMostrarIndice" alignment="0" max="32767" attributes="0"/>
+                        <Component id="btnDestruir" alignment="0" max="32767" attributes="0"/>
+                        <Component id="btnSalir" alignment="0" max="32767" attributes="0"/>
+                    </Group>
+                    <EmptySpace max="-2" attributes="0"/>
+                </Group>
+            </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+            <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="0" attributes="0">
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Component id="btnCrear" min="-2" max="-2" attributes="0"/>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Component id="btnMostrar" min="-2" max="-2" attributes="0"/>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Component id="btnAgregar" min="-2" max="-2" attributes="0"/>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Component id="btnModificar" min="-2" max="-2" attributes="0"/>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Component id="btnEliminar" min="-2" max="-2" attributes="0"/>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Component id="btnMostrarIndice" min="-2" max="-2" attributes="0"/>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Component id="btnDestruir" min="-2" max="-2" attributes="0"/>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Component id="btnSalir" min="-2" max="-2" attributes="0"/>
+                    <EmptySpace max="32767" attributes="0"/>
+                </Group>
+            </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btnCrear">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Crear biblioteca"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCrearActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnMostrar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mostrar libros"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMostrarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnAgregar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Agregar libro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnModificar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Modificar libro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnModificarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnEliminar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Eliminar libro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnMostrarIndice">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mostrar por índice"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMostrarIndiceActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnDestruir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Destruir biblioteca"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDestruirActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnSalir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Salir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalirActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlDatos">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Datos del libro"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+            <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="0" attributes="0">
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Component id="lblTituloLibro" alignment="0" min="-2" max="-2" attributes="0"/>
+                        <Component id="lblAutor" alignment="0" min="-2" max="-2" attributes="0"/>
+                        <Component id="lblAnio" alignment="0" min="-2" max="-2" attributes="0"/>
+                        <Component id="lblIndice" alignment="0" min="-2" max="-2" attributes="0"/>
+                    </Group>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Group type="103" groupAlignment="0" attributes="0">
+                        <Component id="txtTitulo" alignment="0" max="32767" attributes="0"/>
+                        <Component id="txtAutor" alignment="0" max="32767" attributes="0"/>
+                        <Component id="txtAnio" alignment="0" max="32767" attributes="0"/>
+                        <Component id="txtIndice" alignment="0" max="32767" attributes="0"/>
+                    </Group>
+                    <EmptySpace max="-2" attributes="0"/>
+                </Group>
+            </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+            <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="0" attributes="0">
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Group type="103" groupAlignment="3" attributes="0">
+                        <Component id="lblTituloLibro" alignment="3" min="-2" max="-2" attributes="0"/>
+                        <Component id="txtTitulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                    </Group>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Group type="103" groupAlignment="3" attributes="0">
+                        <Component id="lblAutor" alignment="3" min="-2" max="-2" attributes="0"/>
+                        <Component id="txtAutor" alignment="3" min="-2" max="-2" attributes="0"/>
+                    </Group>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Group type="103" groupAlignment="3" attributes="0">
+                        <Component id="lblAnio" alignment="3" min="-2" max="-2" attributes="0"/>
+                        <Component id="txtAnio" alignment="3" min="-2" max="-2" attributes="0"/>
+                    </Group>
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Group type="103" groupAlignment="3" attributes="0">
+                        <Component id="lblIndice" alignment="3" min="-2" max="-2" attributes="0"/>
+                        <Component id="txtIndice" alignment="3" min="-2" max="-2" attributes="0"/>
+                    </Group>
+                    <EmptySpace max="32767" attributes="0"/>
+                </Group>
+            </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTituloLibro">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Título:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTitulo">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAutor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Autor:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAutor">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAnio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Año de publicación:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAnio">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblIndice">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Índice:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIndice">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnlResultados">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Resultados"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+            <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="0" attributes="0">
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Component id="scrResultados" pref="520" max="32767" attributes="0"/>
+                    <EmptySpace max="-2" attributes="0"/>
+                </Group>
+            </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+            <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="0" attributes="0">
+                    <EmptySpace max="-2" attributes="0"/>
+                    <Component id="scrResultados" pref="240" max="32767" attributes="0"/>
+                    <EmptySpace max="-2" attributes="0"/>
+                </Group>
+            </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="scrResultados">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="txtResultados">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Monospaced" size="13" style="0"/>
+                </Property>
+                <Property name="lineWrap" type="boolean" value="true"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="wrapStyleWord" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
